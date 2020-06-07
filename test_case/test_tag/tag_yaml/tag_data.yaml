@@ -1,0 +1,29 @@
+get:
+  - tag_id: wangwu
+  - tag_id: hahaha
+
+add:
+  - name: wangwu
+  - name: hahaha
+  - name: zhangsan
+  - name: hehehe
+  - name: lisi
+
+update:
+  - {id: wangwu, name: wanglaowu}
+  - {id: zhangsan, name: zhanglaosan}
+  - {id: lisi, name: liwu}
+
+delete:
+#  - {tag_id: wangwu, group_id: None}
+#  - {tag_id: hahaha, group_id: None}
+#  - {tag_id: zhangsan, group_id: None}
+#  - {tag_id: lisi, group_id: None}
+#  - {tag_id: hehehe, group_id: None}
+  - tag_id: wanglaowu
+  - tag_id: hahaha
+  - tag_id: zhanglaosan
+  - tag_id: liwu
+  - tag_id: hehehe
+#  - tag_id: zhangsan
+#  - tag_id: wangwu
